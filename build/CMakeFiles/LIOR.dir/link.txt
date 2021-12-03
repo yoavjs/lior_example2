@@ -1,0 +1,3 @@
+D:\Programs\CMake\bin\cmake.exe -E rm -f CMakeFiles\LIOR.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\LIOR.dir/objects.a @CMakeFiles\LIOR.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\LIOR.dir/objects.a -Wl,--no-whole-archive -o LIOR.exe -Wl,--out-implib,libLIOR.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\LIOR.dir\linklibs.rsp
